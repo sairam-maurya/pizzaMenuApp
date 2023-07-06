@@ -48,8 +48,6 @@ const pizzaData = [
 ];
 
 
-
-
 function App() {
 
     return (
@@ -143,10 +141,6 @@ function Order({ closeHour, openHour }) {
 }
 
 
-
-
-
-//react 18
 const root = ReactDom.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
